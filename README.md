@@ -17,7 +17,7 @@
 
 ![Testing Model Performance](images/output.png)
 
-## **Reference**
+## **References**
 
 IndoNLU. (2022). https://github.com/IndoNLP/indonlu 
 
