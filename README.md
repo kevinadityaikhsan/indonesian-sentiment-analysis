@@ -34,19 +34,19 @@ Follow these steps to set up the environment for the repository:
 1. **Clone the repository**  
    Open a bash terminal and execute the following command to clone the repository:  
    ```bash
-   git clone https://github.com/kevinadityaikhsan/indonesian-sentiment-analysis
+   git clone https://github.com/kevinadityaikhsan/indonesian-sentiment-analysis-pipeline
    ```
 
 2. **Navigate to the repository**  
    Change the current directory to the cloned repository:  
    ```bash
-   cd indonesian-sentiment-analysis
+   cd indonesian-sentiment-analysis-pipeline
    ```
 
 3. **Create a new Conda environment**  
    Create a Conda environment with Python 3.9.15:  
    ```bash
-   conda create --name mlops-tfx python=3.9.15
+   conda create --name sentiment-pipeline python=3.9.15
    ```  
    When prompted, press `y` to confirm.
 
@@ -62,7 +62,7 @@ Follow these steps to set up the environment for the repository:
 6. **Activate the Conda environment**  
    Activate the environment created earlier:  
    ```bash
-   conda activate mlops-tfx
+   conda activate sentiment-pipeline
    ```
 
 7. **Install dependencies**  
@@ -72,7 +72,7 @@ Follow these steps to set up the environment for the repository:
    ```
 
 8. **Open the Jupyter Notebook**  
-   Open the `notebook.ipynb` from the repository. Select the kernel named `mlops-tfx (Python 3.9.15)` from the kernel menu.
+   Open the `notebook.ipynb` from the repository. Select the kernel named `sentiment-pipeline (Python 3.9.15)` from the kernel menu.
 
 9. **Ready for use**  
    The setup process is complete, and the notebook is ready.
